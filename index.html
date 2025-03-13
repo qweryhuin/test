@@ -10,16 +10,17 @@
 <body>
 
     <div>Hello world</div>
+    <button onclick="add()">Add</button>
     <script>
 
         let arr = [];
         let i = 1;
 
-        arr.push(i);
-
-        i++;
-
-        console.log(arr);
+        function add() {
+            arr.push(i);
+            i++;
+            console.log(arr);
+        }
     </script>
 </body>
 
